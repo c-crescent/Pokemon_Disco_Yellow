@@ -529,6 +529,7 @@ ShellderEvosMoves:
 	db 25, BUBBLEBEAM
 	db 35, ICE_BEAM
 	db 43, CLAMP
+	db 46, SPIKE_CANNON
 	db 50, BLIZZARD
 	db 55, EXPLOSION
 	db 0
@@ -575,6 +576,7 @@ ScytherEvosMoves:
 	db 42, TWINEEDLE
 	db 48, DOUBLE_TEAM
 	db 54, SWORDS_DANCE
+	db 60, RAZOR_WIND
 	db 0
 
 StaryuEvosMoves:
@@ -774,10 +776,11 @@ MachokeEvosMoves:
 	db 5, LEER
 	db 7, FOCUS_ENERGY
 	db 19, SEISMIC_TOSS
-	db 28, SUBMISSION
+	db 24, COMET_PUNCH
+	db 28, KARATE_CHOP
 	db 33, BODY_SLAM
 	db 37, COUNTER
-	db 41, KARATE_CHOP
+	db 41, SUBMISSION
 	db 0
 
 MrMimeEvosMoves:
@@ -959,6 +962,7 @@ KoffingEvosMoves:
 	db 40, SELFDESTRUCT
 	db 45, HAZE
 	db 48, EXPLOSION
+	db 52, TOXIC
 	db 0
 
 MissingNo38EvosMoves:
@@ -979,6 +983,7 @@ MankeyEvosMoves:
 	db 33, SEISMIC_TOSS
 	db 39, THRASH
 	db 45, SCREECH
+	db 48, SUBMISSION
 	db 0
 
 SeelEvosMoves:
@@ -1567,10 +1572,11 @@ MachopEvosMoves:
 	db 5, LEER
 	db 7, FOCUS_ENERGY
 	db 19, SEISMIC_TOSS
-	db 28, SUBMISSION
+	db 24, COMET_PUNCH
+	db 28, KARATE_CHOP
 	db 33, TAKE_DOWN
 	db 37, COUNTER
-	db 45, KARATE_CHOP
+	db 45, SUBMISSION
 	db 0
 
 ZubatEvosMoves:
@@ -1711,6 +1717,7 @@ PrimeapeEvosMoves:
 	db 33, SEISMIC_TOSS
 	db 39, THRASH
 	db 45, SCREECH
+	db 48, SUBMISSION
 	db 0
 
 DugtrioEvosMoves:
@@ -1806,10 +1813,11 @@ MachampEvosMoves:
 	db 5, LEER
 	db 7, FOCUS_ENERGY
 	db 19, SEISMIC_TOSS
-	db 28, SUBMISSION
+	db 24, COMET_PUNCH
+	db 28, KARATE_CHOP
 	db 33, TAKE_DOWN
 	db 37, COUNTER
-	db 45, KARATE_CHOP
+	db 45, SUBMISSION
 	db 0
 
 MissingNo7FEvosMoves:
@@ -1997,6 +2005,7 @@ WeezingEvosMoves:
 	db 40, SELFDESTRUCT
 	db 45, HAZE
 	db 48, EXPLOSION
+	db 52, TOXIC
 	db 0
 
 PersianEvosMoves:
