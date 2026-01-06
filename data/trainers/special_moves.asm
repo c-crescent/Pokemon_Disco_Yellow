@@ -651,7 +651,7 @@ SpecialTrainerMoves:
     db 4, 2, DOUBLE_TEAM
     db 4, 4, METRONOME
     db 5, 3, BODY_SLAM
-    db 5, 4,SURF
+    db 5, 4, SURF
     db 6, 1, EARTHQUAKE
     db 6, 2, HYPER_BEAM
     db 6, 3, ROCK_SLIDE

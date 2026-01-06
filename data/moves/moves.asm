@@ -12,14 +12,14 @@ Moves:
 ; Characteristics of each move.
 	table_width MOVE_LENGTH, Moves
 	move POUND,        NO_ADDITIONAL_EFFECT,        40, NORMAL,       100, 35
-	move KARATE_CHOP,  NO_ADDITIONAL_EFFECT,        50, FIGHTING,     95, 25
+	move KARATE_CHOP,  NO_ADDITIONAL_EFFECT,        55, FIGHTING,     95, 25
 	move DOUBLESLAP,   TWO_TO_FIVE_ATTACKS_EFFECT,  20, NORMAL,       100, 35
 	move COMET_PUNCH,  TWO_TO_FIVE_ATTACKS_EFFECT,  25, NORMAL,       100, 25
 	move MEGA_PUNCH,   NO_ADDITIONAL_EFFECT,        80, NORMAL,        85, 20
 	move PAY_DAY,      PAY_DAY_EFFECT,              60, NORMAL,       100, 20
-	move FIRE_PUNCH,   BURN_SIDE_EFFECT2,           70, FIRE,         100, 15
-	move ICE_PUNCH,    FREEZE_SIDE_EFFECT,          70, ICE,          100, 15
-	move THUNDERPUNCH, PARALYZE_SIDE_EFFECT1,       70, ELECTRIC,     100, 15
+	move FIRE_PUNCH,   BURN_SIDE_EFFECT2,           75, FIRE,         100, 15
+	move ICE_PUNCH,    FREEZE_SIDE_EFFECT,          75, ICE,          100, 15
+	move THUNDERPUNCH, PARALYZE_SIDE_EFFECT1,       75, ELECTRIC,     100, 15
 	move SCRATCH,      NO_ADDITIONAL_EFFECT,        40, NORMAL,       100, 35
 	move VICEGRIP,     NO_ADDITIONAL_EFFECT,        55, NORMAL,       100, 30
 	move GUILLOTINE,   OHKO_EFFECT,                  1, NORMAL,        30,  5
@@ -29,7 +29,7 @@ Moves:
 	move GUST,         NO_ADDITIONAL_EFFECT,        40, FLYING,       100, 35
 	move WING_ATTACK,  NO_ADDITIONAL_EFFECT,        60, FLYING,       100, 35
 	move WHIRLWIND,    SWITCH_AND_TELEPORT_EFFECT,   0, BIRD,          85, 20
-	move FLY,          FLY_EFFECT,                  70, FLYING,       100, 15
+	move FLY,          FLY_EFFECT,                  85, FLYING,       100, 15
 	move BIND,         TRAPPING_EFFECT,             15, NORMAL,        85, 20
 	move SLAM,         FLINCH_SIDE_EFFECT1,        80,  DRAGON,       100, 20
 	move VINE_WHIP,    NO_ADDITIONAL_EFFECT,        40, GRASS,        100, 25
@@ -101,7 +101,7 @@ Moves:
 	move ROCK_THROW,   NO_ADDITIONAL_EFFECT,        50, ROCK,         95, 25
 	move EARTHQUAKE,   NO_ADDITIONAL_EFFECT,       100, GROUND,       100, 10
 	move FISSURE,      OHKO_EFFECT,                  1, GROUND,        30,  5
-	move DIG,          CHARGE_EFFECT,               70, GROUND,       100, 20
+	move DIG,          CHARGE_EFFECT,               75, GROUND,       100, 20
 	move TOXIC,        POISON_EFFECT,                0, POISON,        85, 10
 	move CONFUSION,    CONFUSION_SIDE_EFFECT,       50, PSYCHIC_TYPE, 100, 25
 	move PSYCHIC_M,    SPECIAL_DOWN_SIDE_EFFECT,    90, PSYCHIC_TYPE, 100, 15
@@ -111,7 +111,7 @@ Moves:
 	move QUICK_ATTACK, NO_ADDITIONAL_EFFECT,        40, NORMAL,       100, 30
 	move RAGE,         RAGE_EFFECT,                 60, NORMAL,       100, 20
 	move TELEPORT,     SWITCH_AND_TELEPORT_EFFECT,   0, PSYCHIC_TYPE, 100, 20
-	move NIGHT_SHADE,  NO_ADDITIONAL_EFFECT,        60, GHOST,        100, 15
+	move NIGHT_SHADE,  NO_ADDITIONAL_EFFECT,        75, GHOST,        100, 15
 	move MIMIC,        MIMIC_EFFECT,                 0, BIRD,         100, 10
 	move SCREECH,      DEFENSE_DOWN2_EFFECT,         0, BIRD,          85, 40
 	move DOUBLE_TEAM,  EVASION_UP1_EFFECT,           0, BIRD,         100, 15
@@ -168,10 +168,10 @@ Moves:
 	move BONEMERANG,   ATTACK_TWICE_EFFECT,         50, GROUND,        90, 20
 	move REST,         HEAL_EFFECT,                  0, BIRD,         100, 10
 	move ROCK_SLIDE,   FLINCH_SIDE_EFFECT1,         75, ROCK,          95, 15
-	move HYPER_FANG,   FLINCH_SIDE_EFFECT1,         80, NORMAL,        90, 15
+	move HYPER_FANG,   FLINCH_SIDE_EFFECT1,         80, NORMAL,       100, 15
 	move SHARPEN,      ATTACK_UP1_EFFECT,            0, BIRD,         100, 30
 	move CONVERSION,   CONVERSION_EFFECT,            0, BIRD,         100, 30
-	move TRI_ATTACK,   BURN_SIDE_EFFECT2,            85, NORMAL,       100, 15
+	move TRI_ATTACK,   BURN_SIDE_EFFECT2,            85, NORMAL,      100, 15
 	move SUPER_FANG,   SUPER_FANG_EFFECT,            1, NORMAL,        90, 10
 	move SLASH,        NO_ADDITIONAL_EFFECT,        70, NORMAL,       100, 20
 	move SUBSTITUTE,   SUBSTITUTE_EFFECT,            0, BIRD,         100, 10
