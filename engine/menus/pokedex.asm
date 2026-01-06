@@ -11,6 +11,10 @@ ShowPokedexMenu:
 	inc a
 	ld [wd11e], a
 	ldh [hJoy7], a
+	ld a, [wPokedexPlace1]
+	ld [wListScrollOffset], a
+	ld a, [wPokedexPlace2]
+	ld [wCurrentMenuItem], a
 .setUpGraphics
 	callfar LoadPokedexTilePatterns
 .loop
@@ -32,6 +36,10 @@ ShowPokedexMenu:
 	call HandlePokedexListMenu
 	jr c, .goToSideMenu ; if the player chose a pokemon from the list
 .exitPokedex
+	ld a, [wListScrollOffset]
+	ld [wPokedexPlace1], a
+	ld a, [wCurrentMenuItem]
+	ld [wPokedexPlace2], a
 	xor a
 	ld [wMenuWatchMovingOutOfBounds], a
 	ld [wCurrentMenuItem], a
