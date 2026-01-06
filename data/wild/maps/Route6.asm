@@ -2,7 +2,7 @@ Route6WildMons:
 	def_grass_wildmons 15 ; encounter rate
 	db 15, PIDGEY
 	db 14, PSYDUCK
-	db 14, ABRA
+	db 14, DROWZEE
 	db 16, LICKITUNG
 	db 16, LICKITUNG
 	db 15, PSYDUCK

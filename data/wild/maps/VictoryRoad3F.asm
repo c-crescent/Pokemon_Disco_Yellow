@@ -1,7 +1,7 @@
 VictoryRoad3FWildMons:
 	def_grass_wildmons 15 ; encounter rate
 	db 47, GRAVELER
-	db 43, GEODUDE
+	db 43, PRIMEAPE
 	db 46, MACHAMP
 	db 47, GOLBAT
 	db 45, GOLEM

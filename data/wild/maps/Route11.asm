@@ -6,7 +6,7 @@ Route11WildMons:
 	db 17, DROWZEE
 	db 17, EKANS
 	db 18, DROWZEE
-	db 20, PIDGEOTTO
+	db 20, TANGELA
 	db 19, MAGNEMITE
 	db 19, DROWZEE
 	db 20, DROWZEE

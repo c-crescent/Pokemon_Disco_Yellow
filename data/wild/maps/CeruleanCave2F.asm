@@ -6,10 +6,10 @@ CeruleanCave2FWildMons:
 	db 61, MAROWAK
 	db 65, DODRIO
 	db 60, DITTO
-	db 64, MAGNETON
+	db 64, RAICHU
 	db 63, CHANSEY
 	db 64, RAICHU
-	db 65, RAICHU
+	db 65, DRATINI
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

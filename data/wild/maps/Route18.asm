@@ -7,9 +7,9 @@ Route18WildMons:
 	db 28, RATICATE
 	db 29, DODUO
 	db 28, FEAROW
-	db 29, FEAROW
-	db 31, RATICATE
-	db 32, RATICATE
+	db 29, RATICATE
+	db 31, EXEGGCUTE
+	db 32, EXEGGCUTE
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

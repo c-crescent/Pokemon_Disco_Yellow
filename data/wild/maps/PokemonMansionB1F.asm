@@ -5,11 +5,11 @@ PokemonMansionB1FWildMons:
 	db 36, GRIMER
 	db 39, GRIMER
 	db 40, MUK
-	db 40, RATICATE
+	db 40, DITTO
 	db  7, DITTO
 	db 40, MAGMAR
-	db 25, DITTO
-	db 30, DITTO
+	db 15, CHARMANDER
+	db 15, CHARMANDER
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

@@ -4,7 +4,7 @@ Route12WildMons:
 	db 25, BELLSPROUT
 	db 28, PIDGEY
 	db 28, PIDGEOTTO
-	db 28, ODDISH
+	db 28, TANGELA
 	db 29, TANGELA
 	db 29, GLOOM
 	db 29, WEEPINBELL

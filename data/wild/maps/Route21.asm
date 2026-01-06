@@ -8,8 +8,8 @@ Route21WildMons:
 	db 25, RATTATA
 	db 25, RATICATE
 	db 27, PIDGEOTTO
-	db 29, PIDGEOTTO
-	db 30, PIDGEOT
+	db 15, BULBASAUR
+	db 15, BULBASAUR
 	end_grass_wildmons
 
 	def_water_wildmons 5 ; encounter rate

@@ -11,6 +11,6 @@ Route20WildMons:
 	db 20, TENTACOOL
 	db 25, SEAKING
 	db 30, TENTACRUEL
-	db 35, TENTACRUEL
-	db 40, TENTACRUEL
+	db 15, SQUIRTLE
+	db 15, SQUIRTLE
 	end_water_wildmons
