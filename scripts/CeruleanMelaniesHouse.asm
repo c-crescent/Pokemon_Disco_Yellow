@@ -18,7 +18,7 @@ CeruleanMelanieHouseMelanieText:
 	ld hl, CeruleanHouse1Text_1cfc8
 	call PrintText
 	ld a, [wPikachuHappiness]
-	cp 147
+	cp 110
 	jr c, .asm_1cfb3
 	ld hl, CeruleanHouse1Text_1cfce
 	call PrintText

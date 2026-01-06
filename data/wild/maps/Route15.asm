@@ -9,7 +9,7 @@ Route15WildMons:
 	db 30, GLOOM
 	db 30, WEEPINBELL
 	db 30, VENOMOTH
-	db 34, VENOMOTH
+	db 34, SCYTHER
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

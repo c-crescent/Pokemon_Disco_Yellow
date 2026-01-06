@@ -1,6 +1,6 @@
 Route24WildMons:
 	def_grass_wildmons 25 ; encounter rate
-	db 12, PIDGEY
+	db 12, VENONAT
 	db 12, BELLSPROUT
 	db 13, ABRA
 	db 14, ODDISH

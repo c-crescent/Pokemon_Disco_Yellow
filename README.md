@@ -4,7 +4,7 @@ This project is a fork of The [Yellow Legacy]([https://github.com/cRz-Shadows/Po
 
 ## Philosophy & Direction
 
-This project aims to leverage all of the QoL enhancements & other great work by the TSP team & collaborators to also include a more balanced Pokémon experience to highlight more often forgotten Pokémon, increasing the variety of them in a normal playthrough. This includes both improvements to their stats, learnsets, movepools, and most importantly availability.
+This project aims to leverage all of the QoL enhancements & other great work by the TSP team & collaborators to also include a more balanced Pokémon experience to highlight more often forgotten Pokémon, increasing the variety of them in a normal playthrough. This includes both improvements to their stats, learnsets, movepools, and most importantly availability. What this hack will (still) not do: add the Physical/Special Split or modern Dark/Fairy types.
 
 As an additional QoL, I also believe no Pokémon should be exclusively available as a 1% catch.
 

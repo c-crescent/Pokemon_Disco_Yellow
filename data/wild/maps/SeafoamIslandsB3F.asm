@@ -13,13 +13,13 @@ SeafoamIslandsB3FWildMons:
 	end_grass_wildmons
 
 	def_water_wildmons 5 ; encounter rate
-	db 25, TENTACOOL
+	db 25, SHELLDER
 	db 30, TENTACOOL
 	db 20, TENTACOOL
 	db 30, STARYU
 	db 35, TENTACOOL
 	db 30, STARYU
-	db 40, TENTACRUEL
+	db 40, CLOYSTER
 	db 30, STARYU
 	db 30, STARYU
 	db 30, STARYU

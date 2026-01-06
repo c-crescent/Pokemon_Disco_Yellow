@@ -3,12 +3,12 @@ Route14WildMons:
 	db 26, ODDISH
 	db 26, BELLSPROUT
 	db 24, WEEPINBELL
-	db 30, PIDGEOTTO
+	db 30, GLOOM
 	db 28, GLOOM
 	db 28, SCYTHER
-	db 30, GLOOM
+	db 30, VENONAT
 	db 28, VENONAT
-	db 27, VENONAT
+	db 27, SCYTHER
 	db 33, VENOMOTH
 	end_grass_wildmons
 
