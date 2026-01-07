@@ -487,6 +487,7 @@ ArcanineEvosMoves:
 	db 18, EMBER
 	db 23, LEER
 	db 30, TAKE_DOWN
+	db 33, FLAME_WHEEL
 	db 45, FLAMETHROWER
 	db 46, AGILITY
 	db 0
@@ -546,7 +547,7 @@ TentacoolEvosMoves:
 	db 23, BUBBLEBEAM
 	db 27, CONSTRICT
 	db 35, BARRIER
-	db 40, SCREECH
+	db 40, HEX
 	db 43, SLUDGE
 	db 47, WRAP
 	db 50, HYDRO_PUMP
@@ -663,6 +664,7 @@ GrowlitheEvosMoves:
 ; Learnset
 	db 18, EMBER
 	db 23, LEER
+	db 26, FLAME_WHEEL
 	db 30, TAKE_DOWN
 	db 35, FLAMETHROWER
 	db 36, AGILITY
@@ -778,7 +780,7 @@ MachokeEvosMoves:
 	db 5, LEER
 	db 7, FOCUS_ENERGY
 	db 19, SEISMIC_TOSS
-	db 24, COMET_PUNCH
+	db 24, MACH_PUNCH
 	db 28, KARATE_CHOP
 	db 33, BODY_SLAM
 	db 37, COUNTER
@@ -817,6 +819,7 @@ HitmonchanEvosMoves:
 	db 0
 ; Learnset
 	db 25, KARATE_CHOP
+	db 28, MACH_PUNCH
 	db 33, FIRE_PUNCH
 	db 35, ICE_PUNCH
 	db 37, THUNDERPUNCH
@@ -1027,6 +1030,7 @@ TaurosEvosMoves:
 	db 19, STOMP
 	db 23, TAIL_WHIP
 	db 27, HEADBUTT
+	db 28, DOUBLE_KICK
 	db 35, RAGE
 	db 40, TAKE_DOWN
 	db 45, THRASH
@@ -1250,9 +1254,10 @@ VulpixEvosMoves:
 	db 7, QUICK_ATTACK
 	db 13, ROAR
 	db 16, CONFUSE_RAY
+	db 20, FLAME_WHEEL
 	db 25, REFLECT
 	db 32, FLAMETHROWER
-	db 37, NIGHT_SHADE
+	db 37, HEX
 	db 42, FIRE_SPIN
 	db 0
 
@@ -1263,9 +1268,10 @@ NinetalesEvosMoves:
 	db 7, QUICK_ATTACK
 	db 13, ROAR
 	db 16, CONFUSE_RAY
+	db 20, FLAME_WHEEL
 	db 25, REFLECT
 	db 32, FLAMETHROWER
-	db 37, NIGHT_SHADE
+	db 37, HEX
 	db 42, FIRE_SPIN
 	db 0
 
@@ -1529,8 +1535,9 @@ FlareonEvosMoves:
 ; Learnset
 	db 8, SAND_ATTACK
 	db 10, LEER
+	db 18, EMBER
 	db 23, QUICK_ATTACK
-	db 26, EMBER
+	db 26, FLAME_WHEEL
 	db 30, DOUBLE_KICK
 	db 36, FLAMETHROWER
 	db 39, DOUBLE_EDGE
@@ -1579,7 +1586,7 @@ MachopEvosMoves:
 	db 5, LEER
 	db 7, FOCUS_ENERGY
 	db 19, SEISMIC_TOSS
-	db 24, COMET_PUNCH
+	db 24, MACH_PUNCH
 	db 28, KARATE_CHOP
 	db 33, TAKE_DOWN
 	db 37, COUNTER
@@ -1821,7 +1828,7 @@ MachampEvosMoves:
 	db 5, LEER
 	db 7, FOCUS_ENERGY
 	db 19, SEISMIC_TOSS
-	db 24, COMET_PUNCH
+	db 24, MACH_PUNCH
 	db 28, KARATE_CHOP
 	db 33, TAKE_DOWN
 	db 37, COUNTER
@@ -2162,7 +2169,7 @@ TentacruelEvosMoves:
 	db 23, BUBBLEBEAM
 	db 27, CONSTRICT
 	db 35, BARRIER
-	db 40, SCREECH
+	db 40, HEX
 	db 43, SLUDGE
 	db 47, WRAP
 	db 50, HYDRO_PUMP
@@ -2235,6 +2242,7 @@ PonytaEvosMoves:
 	db 0
 ; Learnset
 	db 19, STOMP
+	db 23, FLAME_WHEEL
 	db 25, DOUBLE_KICK
 	db 30, TAIL_WHIP
 	db 33, FLAMETHROWER
@@ -2249,6 +2257,7 @@ RapidashEvosMoves:
 	db 0
 ; Learnset
 	db 19, STOMP
+	db 23, FLAME_WHEEL
 	db 25, DOUBLE_KICK
 	db 28, GROWL
 	db 30, TAIL_WHIP
@@ -2357,6 +2366,7 @@ AerodactylEvosMoves:
 	db 40, ROCK_SLIDE
 	db 43, TAKE_DOWN
 	db 50, HYPER_BEAM
+	db 55, DRAGON_CLAW
 	db 0
 
 MissingNoACEvosMoves:

@@ -166,6 +166,8 @@ AttackAnimationPointers:
 	dw SubstituteAnim
 	dw HexAnim
 	dw DragonClawAnim
+	dw FlameWheelAnim
+	dw MachPunchAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -243,6 +245,7 @@ DoubleSlapAnim:
 	battle_anim DOUBLESLAP, SUBANIM_0_STAR_TWICE, 0, 5
 	db -1 ; end
 
+MachPunchAnim:
 CometPunchAnim:
 	battle_anim COMET_PUNCH, SUBANIM_0_STAR_THRICE, 0, 4
 	battle_anim COMET_PUNCH, SUBANIM_0_STAR_THRICE, 0, 4
@@ -928,6 +931,7 @@ BoneClubAnim:
 	battle_anim BONE_CLUB, SUBANIM_0_STAR_THRICE, 0, 8
 	db -1 ; end
 
+FlameWheelAnim:
 FireBlastAnim:
 	battle_anim FIRE_BLAST, SUBANIM_1_FLAME_BEAM, 1, 6
 	battle_anim NO_MOVE, SUBANIM_1_FLAME_STAR, 1, 6

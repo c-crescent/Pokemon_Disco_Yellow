@@ -4,6 +4,6 @@
 PriorityMovesList:
     db COUNTER,        1
     db QUICK_ATTACK,   8
-    db COMET_PUNCH,    8
+    db MACH_PUNCH,    8
     db TRANSFORM,      8
     db -1 ; end

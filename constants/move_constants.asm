@@ -172,7 +172,9 @@
 	const SUBSTITUTE   ; a4
 	const HEX	       ; a5
 	const DRAGON_CLAW  ; a6
-	const STRUGGLE     ; a7
+	const FLAME_WHEEL  ; a7
+	CONST MACH_PUNCH   ; a8
+	const STRUGGLE     ; a9
 DEF NUM_ATTACKS EQU const_value - 1
 
 	; Moves do double duty as animation identifiers.

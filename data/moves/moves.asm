@@ -12,9 +12,9 @@ Moves:
 ; Characteristics of each move.
 	table_width MOVE_LENGTH, Moves
 	move POUND,        NO_ADDITIONAL_EFFECT,        40, NORMAL,       100, 35
-	move KARATE_CHOP,  NO_ADDITIONAL_EFFECT,        55, FIGHTING,     95, 25
+	move KARATE_CHOP,  NO_ADDITIONAL_EFFECT,        55, FIGHTING,      95, 25
 	move DOUBLESLAP,   ATTACK_TWICE_EFFECT,			30, NORMAL,       100, 35
-	move COMET_PUNCH,  NO_ADDITIONAL_EFFECT, 		40, FIGHTING,     100, 40
+	move COMET_PUNCH,  TWO_TO_FIVE_ATTACKS_EFFECT, 	 0, NORMAL,       100, 40
 	move MEGA_PUNCH,   NO_ADDITIONAL_EFFECT,        80, NORMAL,        90, 20
 	move PAY_DAY,      PAY_DAY_EFFECT,              60, NORMAL,       100, 20
 	move FIRE_PUNCH,   BURN_SIDE_EFFECT2,           75, FIRE,         100, 15
@@ -153,7 +153,7 @@ Moves:
 	move BARRAGE,      TWO_TO_FIVE_ATTACKS_EFFECT,  20, GRASS,        100, 20
 	move LEECH_LIFE,   DRAIN_HP_EFFECT,             50, BUG,          100, 25
 	move LOVELY_KISS,  SLEEP_EFFECT,                 0, BIRD,          80, 10
-	move SKY_ATTACK,   NO_ADDITIONAL_EFFECT,       120, FLYING,        85, 10
+	move SKY_ATTACK,   RECOIL_EFFECT,              120, FLYING,        100, 15
 	move TRANSFORM,    TRANSFORM_EFFECT,             0, BIRD,         100, 10
 	move BUBBLE,       SPEED_DOWN_SIDE_EFFECT,      10, WATER,        100, 30
 	move DIZZY_PUNCH,  CONFUSION_SIDE_EFFECT,       70, FIGHTING,     100, 20
@@ -177,5 +177,7 @@ Moves:
 	move SUBSTITUTE,   SUBSTITUTE_EFFECT,            0, BIRD,         100, 10
 	move HEX,          NO_ADDITIONAL_EFFECT,        75, GHOST,        100, 15
 	move DRAGON_CLAW,  NO_ADDITIONAL_EFFECT,        80, DRAGON,       100, 15
+	move FLAME_WHEEL,  BURN_SIDE_EFFECT1,           60, FIRE,         100, 20
+	move MACH_PUNCH,   NO_ADDITIONAL_EFFECT,        40, FIGHTING,     100, 20
 	move STRUGGLE,     RECOIL_EFFECT,               50, BIRD,         100, 10
 	assert_table_length NUM_ATTACKS

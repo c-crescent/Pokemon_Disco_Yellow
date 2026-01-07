@@ -145,7 +145,7 @@ MoveNames::
 	li "SKY ATTACK"
 	li "TRANSFORM"
 	li "BUBBLE"
-	li "DIZZY PUNCH"
+	li "MACH PUNCH"
 	li "SPORE"
 	li "FLASH"
 	li "PSYWAVE"
@@ -166,5 +166,7 @@ MoveNames::
 	li "SUBSTITUTE"
 	li "HEX"
 	li "DRAGON CLAW"
+	li "FLAME WHEEL"
+	li "MACH PUNCH"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS
