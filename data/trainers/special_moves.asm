@@ -743,24 +743,31 @@ SpecialTrainerMoves:
 	db 6, 4, TAKE_DOWN
 	db 0
 
-	db RIVAL3, 4 ; db $FF, 77, ALAKAZAM, 76, MACHAMP, 75, GYARADOS, 74, PIDGEOT, 75, EXEGGUTOR, 77, ARCANINE, 0
+	db RIVAL3, 4 ; 77, ALAKAZAM, 77, GENGAR, 77, VAPOREON, 77, JOLTEON, 7, EXEGGUTOR, 77, FLAREON
 	db 1, 1, THUNDER_WAVE
-    db 2, 1, ROCK_SLIDE
-    db 2, 2, EARTHQUAKE
-    db 2, 3, BODY_SLAM
-    db 3, 1, DOUBLE_TEAM
-    db 3, 3, BODY_SLAM
-    db 3, 4, BLIZZARD
-    db 4, 1, TOXIC
-    db 4, 2, HYPER_BEAM
-    db 4, 4, DOUBLE_TEAM
-    db 5, 1, REFLECT
-    db 5, 2, LEECH_SEED
-    db 5, 4, SOFTBOILED
-    db 6, 1, FIRE_BLAST
-    db 6, 2, BODY_SLAM
-    db 6, 3, REST
-    db 6, 4, DIG
+	db 1, 2, PSYCHIC_M
+	db 1, 3, RECOVER
+	db 1, 4, SEISMIC_TOSS
+	db 2, 1, HYPNOSIS
+	db 2, 2, THUNDERBOLT
+	db 2, 3, SELFDESTRUCT
+	db 2, 4, HEX
+	db 3, 1, SURF
+	db 3, 2, ICE_BEAM
+	db 3, 3, ACID_ARMOR
+	db 3, 4, REST
+	db 4, 1, THUNDERBOLT
+	db 4, 2, PIN_MISSILE
+	db 4, 3, THUNDER_WAVE
+	db 4, 4, TOXIC
+	db 5, 1, SLEEP_POWDER
+	db 5, 2, EGG_BOMB
+	db 5, 3, PSYCHIC_M
+	db 5, 4, EXPLOSION
+	db 6, 1, FIRE_BLAST
+	db 6, 2, HYPER_BEAM
+	db 6, 3, FOCUS_ENERGY
+	db 6, 4, BODY_SLAM
 	db 0
 
 	db -1 ; end
