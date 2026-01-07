@@ -1602,10 +1602,12 @@ ZubatEvosMoves:
 	db 7, GUST
 	db 12, BITE
 	db 19, CONFUSE_RAY
+	db 21, HYPER_FANG
 	db 23, WING_ATTACK
 	db 27, ACID
 	db 36, SLUDGE
 	db 46, HAZE
+	db 50, SUPER_FANG
 	db 0
 
 EkansEvosMoves:
@@ -1878,10 +1880,12 @@ GolbatEvosMoves:
 	db 7, GUST
 	db 12, BITE
 	db 19, CONFUSE_RAY
+	db 21, HYPER_FANG
 	db 22, WING_ATTACK
 	db 27, ACID
 	db 36, SLUDGE
 	db 46, HAZE
+	db 50, SUPER_FANG
 	db 0
 
 MewtwoEvosMoves:
