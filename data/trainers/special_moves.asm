@@ -627,19 +627,31 @@ SpecialTrainerMoves:
     db 6, 4, DIG
 	db 0
 
-	db LORELEI, 2 ; db $FF, 70, WIGGLYTUFF, 71, STARMIE, 71, CLOYSTER, 70, OMASTAR, 70, EXEGGUTOR, 72, LAPRAS, 0
-    db 1, 4, BLIZZARD
-    db 2, 1, THUNDER_WAVE
-    db 2, 3, THUNDER
-    db 2, 4, SURF
-    db 3, 3, TOXIC
-    db 3, 4, EXPLOSION
-    db 4, 1, BLIZZARD
-    db 4, 3, HORN_DRILL
-    db 5, 1, LEECH_SEED
-    db 6, 1, CONFUSE_RAY
-    db 6, 2, PSYCHIC_M
-    db 6, 3, SURF
+	db LORELEI, 2 ; db $FF, 70, SLOWBRO, 70, CLOYSTER, 70, DEWGONG, 71, STARMIE, 71, JYNX, 72, LAPRAS, 0
+    db 1, 1, SURF
+	db 1, 2, PSYCHIC_M
+	db 1, 3, REST
+	db 1, 4, AMNESIA
+	db 2, 1, CLAMP
+	db 2, 2, SPIKE_CANNON
+	db 2, 3, HYDRO_PUMP
+	db 2, 4, EXPLOSION
+	db 3, 1, REST
+	db 3, 2, BLIZZARD
+	db 3, 3, SURF
+	db 3, 4, MIST
+	db 4, 1, SURF
+	db 4, 2, RECOVER
+	db 4, 3, PSYCHIC_M
+	db 4, 4, ICE_BEAM
+	db 5, 1, LOVELY_KISS
+	db 5, 2, ICE_BEAM
+	db 5, 3, PSYCHIC_M
+	db 5, 4, BLIZZARD
+	db 6, 1, ICE_BEAM
+	db 6, 2, THUNDERBOLT
+	db 6, 3, BODY_SLAM
+	db 6, 4, SING
 	db 0
 
 	db BRUNO, 2 ; db $FF, 71, CLEFABLE, 71, MUK, 70, SLOWBRO, 72, HITMONLEE, 72, RHYDON, 73, MACHAMP, 0
