@@ -31,7 +31,7 @@ Moves:
 	move WHIRLWIND,    SWITCH_AND_TELEPORT_EFFECT,   0, BIRD,          85, 20
 	move FLY,          FLY_EFFECT,                  85, FLYING,       100, 15
 	move BIND,         TRAPPING_EFFECT,             15, NORMAL,        85, 20
-	move SLAM,         FLINCH_SIDE_EFFECT1,         80,  DRAGON,       100, 20
+	move SLAM,         FLINCH_SIDE_EFFECT1,         60,  DRAGON,      100, 20
 	move VINE_WHIP,    NO_ADDITIONAL_EFFECT,        40, GRASS,        100, 25
 	move STOMP,        FLINCH_SIDE_EFFECT2,         65, NORMAL,       100, 20
 	move DOUBLE_KICK,  ATTACK_TWICE_EFFECT,         30, FIGHTING,     100, 30
@@ -92,7 +92,7 @@ Moves:
 	move SLEEP_POWDER, SLEEP_EFFECT,                 0, GRASS,         75, 15
 	move PETAL_DANCE,  THRASH_PETAL_DANCE_EFFECT,   90, GRASS,        100, 20
 	move STRING_SHOT,  SPEED_DOWN1_EFFECT,           0, BUG,          100, 40
-	move DRAGON_RAGE,  NO_ADDITIONAL_EFFECT,        65, DRAGON,       100, 20
+	move DRAGON_RAGE,  SPECIAL_DAMAGE_EFFECT,        1, DRAGON,       100, 10
 	move FIRE_SPIN,    TRAPPING_EFFECT,             15, FIRE,          85, 15
 	move THUNDERSHOCK, PARALYZE_SIDE_EFFECT1,       50, ELECTRIC,     100, 30
 	move THUNDERBOLT,  PARALYZE_SIDE_EFFECT1,       95, ELECTRIC,     100, 15
@@ -111,7 +111,7 @@ Moves:
 	move QUICK_ATTACK, NO_ADDITIONAL_EFFECT,        40, NORMAL,       100, 30
 	move RAGE,         RAGE_EFFECT,                 60, NORMAL,       100, 20
 	move TELEPORT,     SWITCH_AND_TELEPORT_EFFECT,   0, PSYCHIC_TYPE, 100, 20
-	move NIGHT_SHADE,  NO_ADDITIONAL_EFFECT,        75, GHOST,        100, 15
+	move NIGHT_SHADE,  SPECIAL_DAMAGE_EFFECT,        1, GHOST,        100, 15
 	move MIMIC,        MIMIC_EFFECT,                 0, BIRD,         100, 10
 	move SCREECH,      DEFENSE_DOWN2_EFFECT,         0, BIRD,          85, 40
 	move DOUBLE_TEAM,  EVASION_UP1_EFFECT,           0, BIRD,         100, 15
@@ -175,5 +175,7 @@ Moves:
 	move SUPER_FANG,   SUPER_FANG_EFFECT,            1, NORMAL,        90, 10
 	move SLASH,        NO_ADDITIONAL_EFFECT,        70, NORMAL,       100, 20
 	move SUBSTITUTE,   SUBSTITUTE_EFFECT,            0, BIRD,         100, 10
+	move HEX,          NO_ADDITIONAL_EFFECT,        75, GHOST,        100, 15
+	move DRAGON_CLAW,  NO_ADDITIONAL_EFFECT,        80, DRAGON,       100, 15
 	move STRUGGLE,     RECOIL_EFFECT,               50, BIRD,         100, 10
 	assert_table_length NUM_ATTACKS

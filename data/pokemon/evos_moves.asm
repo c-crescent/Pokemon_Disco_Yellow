@@ -403,6 +403,7 @@ GengarEvosMoves:
 	db 10, SMOG
 	db 15, PSYWAVE
 	db 36, NIGHT_SHADE
+	db 40, HEX
 	db 55, HYPNOSIS
 	db 55, DREAM_EATER
 	db 0
@@ -560,6 +561,7 @@ GastlyEvosMoves:
 	db 15, PSYWAVE
 	db 23, POISON_GAS
 	db 36, NIGHT_SHADE
+	db 40, HEX
 	db 55, HYPNOSIS
 	db 55, DREAM_EATER
 	db 0
@@ -850,6 +852,7 @@ ParasectEvosMoves:
 	db 27, MEGA_DRAIN
 	db 30, SLASH
 	db 36, GROWTH
+	db 42, TWINEEDLE
 	db 0
 
 PsyduckEvosMoves:
@@ -1085,6 +1088,7 @@ DragoniteEvosMoves:
 	db 20, DRAGON_RAGE
 	db 25, AGILITY
 	db 30, SLAM
+	db 46, DRAGON_CLAW
 	db 55, WING_ATTACK
 	db 60, HYPER_BEAM
 	db 0
@@ -1319,6 +1323,7 @@ DratiniEvosMoves:
 	db 20, DRAGON_RAGE
 	db 25, AGILITY
 	db 30, SLAM
+	db 46, DRAGON_CLAW
 	db 60, HYPER_BEAM
 	db 0
 
@@ -1332,6 +1337,7 @@ DragonairEvosMoves:
 	db 25, AGILITY
 	db 30, SLAM
 	db 45, DRAGON_RAGE
+	db 48, DRAGON_CLAW
 	db 60, HYPER_BEAM
 	db 0
 
@@ -1396,6 +1402,7 @@ SeadraEvosMoves:
 	db 37, AGILITY
 	db 41, SLAM
 	db 45, HYDRO_PUMP
+	db 52, DRAGON_CLAW
 	db 0
 
 MissingNo5EEvosMoves:
@@ -1622,6 +1629,7 @@ ParasEvosMoves:
 	db 27, MEGA_DRAIN
 	db 30, SLASH
 	db 36, GROWTH
+	db 42, TWINEEDLE
 	db 0
 
 PoliwhirlEvosMoves:
@@ -2049,6 +2057,7 @@ HaunterEvosMoves:
 	db 10, SMOG
 	db 15, PSYWAVE
 	db 36, NIGHT_SHADE
+	db 40, HEX
 	db 55, HYPNOSIS
 	db 55, DREAM_EATER
 	db 0
@@ -2397,7 +2406,7 @@ CharmanderEvosMoves:
 	db 33, SLASH
 	db 38, FLAMETHROWER
 	db 46, FIRE_SPIN
-	db 50, SLAM
+	db 50, DRAGON_CLAW
 	db 0
 
 SquirtleEvosMoves:
@@ -2429,7 +2438,7 @@ CharmeleonEvosMoves:
 	db 23, BITE
 	db 33, SLASH
 	db 40, FLAMETHROWER
-	db 48, SLAM
+	db 48, DRAGON_CLAW
 	db 56, FIRE_SPIN
 	db 0
 
@@ -2462,7 +2471,7 @@ CharizardEvosMoves:
 	db 33, SLASH
 	db 36, WING_ATTACK
 	db 42, FLAMETHROWER
-	db 48, SLAM
+	db 48, DRAGON_CLAW
 	db 56, FIRE_SPIN
 	db 0
 
