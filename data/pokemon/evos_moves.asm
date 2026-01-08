@@ -1125,7 +1125,7 @@ DoduoEvosMoves:
 	db 30, DRILL_PECK
 	db 36, RAGE
 	db 39, TRI_ATTACK
-	db 45, LOW_KICK
+	db 45, JUMP_KICK
 	db 51, AGILITY
 	db 0
 
