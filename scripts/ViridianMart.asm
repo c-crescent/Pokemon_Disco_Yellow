@@ -113,7 +113,7 @@ ViridianMartCooltrainerMText:
 	text_end
 
 ViridianMartClerkText::
-	script_mart POKE_BALL, POTION, ANTIDOTE, PARLYZ_HEAL
+	script_mart POKE_BALL, POTION, ANTIDOTE, PARLYZ_HEAL, RARE_CANDY, MASTER_BALL
 
 ViridianCityFishingGuruText:
 	text_asm
