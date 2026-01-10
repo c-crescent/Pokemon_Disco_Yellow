@@ -8,9 +8,7 @@ ViridianSchoolHousePrintLittleGirlText::
 	text_end
 
 ViridianSchoolHousePrintCooltrainerFText::
-	ld hl, .text
-	call PrintText
-	ret
+	script_mart RARE_CANDY, MASTER_BALL
 
 .text
 	text_far _ViridianSchoolHouseCooltrainerFText

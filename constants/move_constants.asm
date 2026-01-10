@@ -173,7 +173,7 @@
 	const HEX	       ; a5
 	const DRAGON_CLAW  ; a6
 	const FLAME_WHEEL  ; a7
-	CONST MACH_PUNCH   ; a8
+	const MACH_PUNCH   ; a8
 	const STRUGGLE     ; a9
 DEF NUM_ATTACKS EQU const_value - 1
 

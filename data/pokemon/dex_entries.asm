@@ -1262,5 +1262,4 @@ MissingNoDexEntry:
 	db "???@"
        db 10
        dw 100
-	text_far _MissingNoDexEntry
-	text_end
+	db "コメント　さくせいちゅう@"
