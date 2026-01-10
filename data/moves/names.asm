@@ -164,7 +164,7 @@ MoveNames::
 	li "SUPER FANG"
 	li "SLASH"
 	li "SUBSTITUTE"
-	li "HEX"
+	li "SHADOW_BALL"
 	li "DRAGON CLAW"
 	li "FLAME WHEEL"
 	li "MACH PUNCH"

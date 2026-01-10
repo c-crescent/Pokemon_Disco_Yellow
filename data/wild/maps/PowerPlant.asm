@@ -9,7 +9,7 @@ PowerPlantWildMons:
 	db 37, RAICHU
 	db 38, ELECTABUZZ
 	db 39, ELECTABUZZ
-	db 33, RAICHU
+	db 33, PIKACHU
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

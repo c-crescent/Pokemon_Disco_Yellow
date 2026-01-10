@@ -703,7 +703,7 @@ SpecialTrainerMoves:
 	db AGATHA, 2 ; 72, GENGAR, 72, GOLBAT, 72, MAROWAK, 73, ARBOK, 73, VENUSAUR 74, GENGAR
     db 1, 1, HYPNOSIS
 	db 1, 2, THUNDERBOLT
-	db 1, 3, HEX
+	db 1, 3, SHADOW_BALL
 	db 1, 4, SELFDESTRUCT
 	db 2, 1, SLUDGE
 	db 2, 2, SKY_ATTACK
@@ -723,7 +723,7 @@ SpecialTrainerMoves:
 	db 5, 4, HYPER_BEAM
 	db 6, 1, HYPNOSIS
 	db 6, 2, PSYCHIC_M
-	db 6, 3, HEX
+	db 6, 3, SHADOW_BALL
 	db 6, 4, THUNDERBOLT
 	db 0
 
@@ -762,7 +762,7 @@ SpecialTrainerMoves:
 	db 2, 1, HYPNOSIS
 	db 2, 2, THUNDERBOLT
 	db 2, 3, SELFDESTRUCT
-	db 2, 4, HEX
+	db 2, 4, SHADOW_BALL
 	db 3, 1, SURF
 	db 3, 2, ICE_BEAM
 	db 3, 3, ACID_ARMOR

@@ -9,7 +9,7 @@ Route23WildMons:
 	db  5, EEVEE
 	db  5, EEVEE
 	db  5, EEVEE
-	db  5, PIKACHU
+	db  5, CHANSEY
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

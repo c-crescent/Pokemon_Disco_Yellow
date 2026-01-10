@@ -403,7 +403,7 @@ GengarEvosMoves:
 	db 10, SMOG
 	db 15, PSYWAVE
 	db 36, NIGHT_SHADE
-	db 40, HEX
+	db 40, SHADOW_BALL
 	db 55, HYPNOSIS
 	db 55, DREAM_EATER
 	db 0
@@ -547,7 +547,7 @@ TentacoolEvosMoves:
 	db 23, BUBBLEBEAM
 	db 27, CONSTRICT
 	db 35, BARRIER
-	db 40, HEX
+	db 40, SHADOW_BALL
 	db 43, SLUDGE
 	db 47, WRAP
 	db 50, HYDRO_PUMP
@@ -562,7 +562,7 @@ GastlyEvosMoves:
 	db 15, PSYWAVE
 	db 23, POISON_GAS
 	db 36, NIGHT_SHADE
-	db 40, HEX
+	db 40, SHADOW_BALL
 	db 55, HYPNOSIS
 	db 55, DREAM_EATER
 	db 0
@@ -640,9 +640,11 @@ TangelaEvosMoves:
 	db 23, STUN_SPORE
 	db 25, SLEEP_POWDER
 	db 32, MEGA_DRAIN
+	db 36, LEECH_SEED
 	db 42, BODY_SLAM
 	db 45, GROWTH
 	db 48, BIND
+	db 52, RECOVER
 	db 0
 
 MissingNo1FEvosMoves:
@@ -1258,7 +1260,7 @@ VulpixEvosMoves:
 	db 20, FLAME_WHEEL
 	db 25, REFLECT
 	db 32, FLAMETHROWER
-	db 37, HEX
+	db 37, SHADOW_BALL
 	db 42, FIRE_SPIN
 	db 0
 
@@ -1272,7 +1274,7 @@ NinetalesEvosMoves:
 	db 20, FLAME_WHEEL
 	db 25, REFLECT
 	db 32, FLAMETHROWER
-	db 37, HEX
+	db 37, SHADOW_BALL
 	db 42, FIRE_SPIN
 	db 0
 
@@ -1981,6 +1983,7 @@ CloysterEvosMoves:
 	db 40, ICE_BEAM
 	db 46, SPIKE_CANNON
 	db 50, BLIZZARD
+	db 55, EXPLOSION
 	db 0
 
 MissingNo8CEvosMoves:
@@ -2071,7 +2074,7 @@ HaunterEvosMoves:
 	db 10, SMOG
 	db 15, PSYWAVE
 	db 36, NIGHT_SHADE
-	db 40, HEX
+	db 40, SHADOW_BALL
 	db 55, HYPNOSIS
 	db 55, DREAM_EATER
 	db 0
@@ -2176,7 +2179,7 @@ TentacruelEvosMoves:
 	db 23, BUBBLEBEAM
 	db 27, CONSTRICT
 	db 35, BARRIER
-	db 40, HEX
+	db 40, SHADOW_BALL
 	db 43, SLUDGE
 	db 47, WRAP
 	db 50, HYDRO_PUMP

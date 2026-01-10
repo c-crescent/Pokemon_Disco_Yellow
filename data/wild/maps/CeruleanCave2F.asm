@@ -6,9 +6,9 @@ CeruleanCave2FWildMons:
 	db 61, MAROWAK
 	db 65, DODRIO
 	db 60, DITTO
-	db 64, RAICHU
-	db 63, CHANSEY
-	db 64, RAICHU
+	db 64, ZAPDOS
+	db 63, MOLTRES
+	db 64, ARTICUNO
 	db 65, AERODACTYL
 	end_grass_wildmons
 

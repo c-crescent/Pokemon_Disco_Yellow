@@ -175,7 +175,7 @@ Moves:
 	move SUPER_FANG,   SUPER_FANG_EFFECT,            1, NORMAL,        90, 10
 	move SLASH,        NO_ADDITIONAL_EFFECT,        70, NORMAL,       100, 20
 	move SUBSTITUTE,   SUBSTITUTE_EFFECT,            0, BIRD,         100, 10
-	move HEX,          NO_ADDITIONAL_EFFECT,        75, GHOST,        100, 15
+	move SHADOW_BALL,  NO_ADDITIONAL_EFFECT,        80, GHOST,        100, 15
 	move DRAGON_CLAW,  NO_ADDITIONAL_EFFECT,        80, DRAGON,       100, 15
 	move FLAME_WHEEL,  BURN_SIDE_EFFECT1,           60, FIRE,         100, 20
 	move MACH_PUNCH,   NO_ADDITIONAL_EFFECT,        40, FIGHTING,     100, 20
