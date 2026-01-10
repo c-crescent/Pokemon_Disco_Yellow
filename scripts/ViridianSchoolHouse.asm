@@ -5,17 +5,15 @@ ViridianSchoolHouse_Script:
 ViridianSchoolHouse_TextPointers:
 	def_text_pointers
 	dw_const ViridianSchoolHouseBrunetteGirlText, TEXT_VIRIDIANSCHOOLHOUSE_BRUNETTE_GIRL
-	dw_const ViridianSchoolHouseCooltrainerFText, TEXT_VIRIDIANSCHOOLHOUSE_COOLTRAINER_F
+	dw_const ViridianSchoolHouseSecretShopText, TEXT_VIRIDIANSCHOOLHOUSE_COOLTRAINER_F
 	dw_const ViridianSchoolHouseLittleGirlText,   TEXT_VIRIDIANSCHOOLHOUSE_LITTLE_GIRL
 
 ViridianSchoolHouseBrunetteGirlText:
 	text_far _ViridianSchoolHouseBrunetteGirlText
 	text_end
 
-ViridianSchoolHouseCooltrainerFText:
-	text_asm
-	farcall ViridianSchoolHousePrintCooltrainerFText
-	jp TextScriptEnd
+ViridianSchoolHouseSecretShopText:
+	script_mart RARE_CANDY, MASTER_BALL
 
 ViridianSchoolHouseLittleGirlText:
 	text_asm

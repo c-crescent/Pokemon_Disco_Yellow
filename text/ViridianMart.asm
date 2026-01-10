@@ -21,9 +21,13 @@ _ViridianMartClerkParcelQuestText::
 	text_end
 
 _ViridianMartYoungsterText::
-	text "This shop sells a"
-	line "lot of PARLYZ"
-	cont "HEALs."
+	text "There's a girl"
+	line "in this town"
+	cont "who doesn't play"
+	cont "by the rules."
+	
+	para "She sells some"
+	line "secret stuff."
 	done
 
 _ViridianMartCooltrainerMText::

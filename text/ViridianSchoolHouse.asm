@@ -23,7 +23,7 @@ _ViridianSchoolHouseLittleGirlText::
 	line "to trade them!"
 	done
 
-_ViridianSchoolHouseCooltrainerFText::
+_ViridianSchoolHouseSecretShopText::
 	text "Okay!"
 
 	para "Be sure to read"
