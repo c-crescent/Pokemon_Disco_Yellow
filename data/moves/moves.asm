@@ -151,7 +151,7 @@ Moves:
 	move DREAM_EATER,  DREAM_EATER_EFFECT,         100, PSYCHIC_TYPE, 100, 15
 	move POISON_GAS,   POISON_EFFECT,                0, POISON,        85, 40
 	move BARRAGE,      TWO_TO_FIVE_ATTACKS_EFFECT,  20, GRASS,        100, 20
-	move LEECH_LIFE,   DRAIN_HP_EFFECT,             50, BUG,          100, 25
+	move LEECH_LIFE,   DRAIN_HP_EFFECT,             60, BUG,          100, 25
 	move LOVELY_KISS,  SLEEP_EFFECT,                 0, BIRD,          80, 10
 	move SKY_ATTACK,   RECOIL_EFFECT,              120, FLYING,        100, 15
 	move TRANSFORM,    TRANSFORM_EFFECT,             0, BIRD,         100, 10

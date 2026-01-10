@@ -988,6 +988,7 @@ MankeyEvosMoves:
 	db 9, LOW_KICK
 	db 15, FURY_SWIPES
 	db 21, KARATE_CHOP
+	db 24, ROCK_THROW
 	db 27, FOCUS_ENERGY
 	db 33, SEISMIC_TOSS
 	db 39, THRASH
@@ -1437,6 +1438,7 @@ SandshrewEvosMoves:
 	db 14, DIG
 	db 18, SWIFT
 	db 22, SLASH
+	db 28, ROCK_THROW
 	db 33, EARTHQUAKE
 	db 0
 
@@ -1450,6 +1452,7 @@ SandslashEvosMoves:
 	db 14, DIG
 	db 18, SWIFT
 	db 22, SLASH
+	db 28, ROCK_THROW
 	db 30, EARTHQUAKE
 	db 42, SWORDS_DANCE
 	db 0
@@ -1733,6 +1736,7 @@ PrimeapeEvosMoves:
 	db 9, LOW_KICK
 	db 15, FURY_SWIPES
 	db 21, KARATE_CHOP
+	db 24, ROCK_THROW
 	db 27, FOCUS_ENERGY
 	db 33, SEISMIC_TOSS
 	db 39, THRASH
