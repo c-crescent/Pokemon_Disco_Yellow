@@ -1817,10 +1817,12 @@ ButterfreeEvosMoves:
 	db 14, STUN_SPORE
 	db 15, SLEEP_POWDER
 	db 18, SUPERSONIC
+	db 22, PSYBEAM
 	db 24, GUST
 	db 24, PSYBEAM
 	db 28, WHIRLWIND
 	db 32, PSYCHIC_M
+	db 36, MEGA_DRAIN
 	db 0
 
 MachampEvosMoves:
