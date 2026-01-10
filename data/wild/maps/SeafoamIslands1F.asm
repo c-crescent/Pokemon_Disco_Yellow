@@ -7,9 +7,9 @@ SeafoamIslands1FWildMons:
 	db 35, GOLBAT
 	db 32, SLOWPOKE
 	db 35, SLOWPOKE
-	db 32, GOLBAT
+	db 32, JYNX
 	db 35, JYNX
-	db 36, JYNX
+	db 36, KANGASKHAN
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
