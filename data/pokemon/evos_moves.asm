@@ -809,6 +809,7 @@ HitmonleeEvosMoves:
 	db 25, FOCUS_ENERGY
 	db 33, ROLLING_KICK
 	db 38, JUMP_KICK
+	db 41, MACH_PUNCH
 	db 43, MEDITATE
 	db 48, HI_JUMP_KICK
 	db 53, MEGA_KICK
@@ -2546,6 +2547,7 @@ GloomEvosMoves:
 	db 30, SLEEP_POWDER
 	db 35, PETAL_DANCE
 	db 40, SLUDGE
+	db 45, RECOVER
 	db 50, SOLARBEAM
 	db 0
 
