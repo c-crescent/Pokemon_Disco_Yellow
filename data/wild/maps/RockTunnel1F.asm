@@ -6,10 +6,10 @@ RockTunnel1FWildMons:
 	db 19, ZUBAT
 	db 18, GEODUDE
 	db 20, CUBONE
-	db 21, ZUBAT
+	db 21, RHYHORN
 	db 17, CUBONE
 	db 19, CUBONE
-	db 23, RHYDON
+	db 23, RHYHORN
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
