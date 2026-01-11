@@ -2024,8 +2024,7 @@ ItemUseOldRod:
 	call FishingInit
 	jp c, ItemUseNotTime
 .RandomLoop
-	call Random
-	srl a
+	ld a, 1
 	jr c, .SetBite
 	and %11
 	cp 2
@@ -2052,8 +2051,7 @@ ItemUseGoodRod:
 	call FishingInit
 	jp c, ItemUseNotTime
 .RandomLoop
-	call Random
-	srl a
+	ld a, 1
 	jr c, .SetBite
 	and %11
 	cp 2
