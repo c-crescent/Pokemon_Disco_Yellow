@@ -9,7 +9,7 @@ Route6WildMons:
 	db 17, PIDGEOTTO
 	db 16, MAGNEMITE
 	db 17, MAGNEMITE
-	db 19, MAGNEMITE
+	db 19, MR_MIME
 	end_grass_wildmons
 
 	def_water_wildmons 3 ; encounter rate
