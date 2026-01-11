@@ -4,12 +4,12 @@ Route8WildMons:
 	db 22, PIDGEY
 	db 20, ABRA
 	db 17, GROWLITHE
-	db 18, ABRA
+	db 18, KADABRA
 	db 24, PIDGEOTTO
-	db 19, KADABRA
+	db 19, MR_MIME
 	db 24, JIGGLYPUFF
 	db 24, MR_MIME
-	db 28, MR_MIME
+	db 28, PORYGON
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
