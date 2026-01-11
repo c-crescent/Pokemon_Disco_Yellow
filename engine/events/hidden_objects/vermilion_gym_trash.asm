@@ -11,10 +11,7 @@ GymTrashScript:
 	ld a, [wHiddenObjectFunctionArgument]
 	ld [wGymTrashCanIndex], a
 
-; Don't do the trash can puzzle if it's already been done.
-	CheckEvent EVENT_2ND_LOCK_OPENED
-	jr z, .ok
-
+; Don't do the trash can puzzle
 	tx_pre_jump VermilionGymTrashText
 
 .ok
