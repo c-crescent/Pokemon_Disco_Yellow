@@ -45,9 +45,9 @@ RGBLINK ?= $(RGBDS)rgblink
 .PHONY: all yellow yellow_debug clean tidy compare tools
 
 all: $(roms)
-yellow:       pokeyellow.gbc
-yellow_debug: pokeyellow_debug.gbc
-yellow_vc:    pokeyellow.patch
+yellow:       DiscoYellow.gbc
+yellow_debug: DiscoYellow.gbc
+yellow_vc:    DiscoYellow.patch
 
 clean: tidy
 	find gfx \
