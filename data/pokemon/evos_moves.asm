@@ -884,6 +884,7 @@ DrowzeeEvosMoves:
 	db 12, DISABLE
 	db 17, CONFUSION
 	db 24, HEADBUTT
+	db 26, PSYBEAM
 	db 29, POISON_GAS
 	db 32, PSYCHIC_M
 	db 37, MEDITATE
@@ -1875,6 +1876,7 @@ HypnoEvosMoves:
 	db 12, DISABLE
 	db 17, CONFUSION
 	db 24, HEADBUTT
+	db 26, PSYBEAM
 	db 29, POISON_GAS
 	db 32, PSYCHIC_M
 	db 37, MEDITATE
