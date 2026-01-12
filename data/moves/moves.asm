@@ -14,7 +14,7 @@ Moves:
 	move POUND,        NO_ADDITIONAL_EFFECT,        40, NORMAL,       100, 35
 	move KARATE_CHOP,  NO_ADDITIONAL_EFFECT,        55, FIGHTING,      95, 25
 	move DOUBLESLAP,   ATTACK_TWICE_EFFECT,			30, NORMAL,       100, 35
-	move COMET_PUNCH,  TWO_TO_FIVE_ATTACKS_EFFECT, 	 0, NORMAL,       100, 40
+	move COMET_PUNCH,  TWO_TO_FIVE_ATTACKS_EFFECT, 	20, NORMAL,       100, 40
 	move MEGA_PUNCH,   NO_ADDITIONAL_EFFECT,        80, NORMAL,        90, 20
 	move PAY_DAY,      PAY_DAY_EFFECT,              60, NORMAL,       100, 20
 	move FIRE_PUNCH,   BURN_SIDE_EFFECT2,           75, FIRE,         100, 15
@@ -97,7 +97,7 @@ Moves:
 	move THUNDERSHOCK, PARALYZE_SIDE_EFFECT1,       50, ELECTRIC,     100, 30
 	move THUNDERBOLT,  PARALYZE_SIDE_EFFECT1,       95, ELECTRIC,     100, 15
 	move THUNDER_WAVE, PARALYZE_EFFECT,              0, ELECTRIC,     100, 20
-	move THUNDER,      PARALYZE_SIDE_EFFECT1,      120, ELECTRIC,      85, 5
+	move THUNDER,      PARALYZE_SIDE_EFFECT1,      120, ELECTRIC,      85,  5
 	move ROCK_THROW,   NO_ADDITIONAL_EFFECT,        50, ROCK,          95, 25
 	move EARTHQUAKE,   NO_ADDITIONAL_EFFECT,       100, GROUND,       100, 10
 	move FISSURE,      OHKO_EFFECT,                  1, GROUND,        30,  5
@@ -145,7 +145,7 @@ Moves:
 	move CONSTRICT,    SPEED_DOWN_SIDE_EFFECT,      40, NORMAL,       100, 35
 	move AMNESIA,      SPECIAL_UP2_EFFECT,           0, BIRD,         100, 20
 	move KINESIS,      PARALYZE_EFFECT, 		    85, PSYCHIC_TYPE,  90, 15
-	move SOFTBOILED,   HEAL_EFFECT,                  0, BIRD,         100, 5
+	move SOFTBOILED,   HEAL_EFFECT,                  0, BIRD,         100,  5
 	move HI_JUMP_KICK, JUMP_KICK_EFFECT,           120, FIGHTING,      90, 20
 	move GLARE,        PARALYZE_EFFECT,              0, BIRD,         100, 30
 	move DREAM_EATER,  DREAM_EATER_EFFECT,         100, PSYCHIC_TYPE, 100, 15
@@ -153,7 +153,7 @@ Moves:
 	move BARRAGE,      TWO_TO_FIVE_ATTACKS_EFFECT,  20, GRASS,        100, 20
 	move LEECH_LIFE,   DRAIN_HP_EFFECT,             60, BUG,          100, 25
 	move LOVELY_KISS,  SLEEP_EFFECT,                 0, BIRD,          80, 10
-	move SKY_ATTACK,   RECOIL_EFFECT,              120, FLYING,        100, 15
+	move SKY_ATTACK,   RECOIL_EFFECT,              120, FLYING,       100, 15
 	move TRANSFORM,    TRANSFORM_EFFECT,             0, BIRD,         100, 10
 	move BUBBLE,       SPEED_DOWN_SIDE_EFFECT,      10, WATER,        100, 30
 	move DIZZY_PUNCH,  CONFUSION_SIDE_EFFECT,       70, FIGHTING,     100, 20
