@@ -1190,8 +1190,7 @@ ConfusionSideEffectSuccess:
 	set CONFUSED, [hl] ; mon is now confused
 	push af
 	call BattleRandom
-	and $3
-	inc a
+	and $2
 	inc a
 	ld [bc], a ; confusion status will last 2-5 turns
 	pop af

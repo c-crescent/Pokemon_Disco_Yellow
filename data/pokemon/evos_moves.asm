@@ -940,6 +940,7 @@ ElectabuzzEvosMoves:
 	db 31, THUNDERPUNCH
 	db 40, LIGHT_SCREEN
 	db 43, THUNDERBOLT
+	db 48, ICE_PUNCH
 	db 54, THUNDER
 	db 0
 
@@ -2263,7 +2264,9 @@ PonytaEvosMoves:
 	db 35, AGILITY
 	db 36, FIRE_SPIN
 	db 40, TAKE_DOWN
+	db 42, JUMP_KICK
 	db 45, FIRE_BLAST
+	db 50, HI_JUMP_KICK
 	db 0
 
 RapidashEvosMoves:
@@ -2279,6 +2282,7 @@ RapidashEvosMoves:
 	db 35, AGILITY
 	db 36, FIRE_SPIN
 	db 40, TAKE_DOWN
+	db 42, JUMP_KICK
 	db 45, FIRE_BLAST
 	db 50, HI_JUMP_KICK
 	db 0
@@ -2379,6 +2383,7 @@ AerodactylEvosMoves:
 	db 32, WING_ATTACK
 	db 40, ROCK_SLIDE
 	db 43, TAKE_DOWN
+	db 47, SKY_ATTACK
 	db 50, HYPER_BEAM
 	db 55, DRAGON_CLAW
 	db 0
